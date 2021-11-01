@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: #020101;
+  font-family: 'Philosopher', sans-serif;
+  color: #fff;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+.fade {
+  
+  padding: 10px;
+  color: rgb(247, 245, 245);
+  opacity: 1;
+  font-size: 30px;
+  text-align: center;
+}
+.fade1 {
+     
+  padding: 10px;
+  color: rgb(247, 245, 245);
+  opacity: 1;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.header {
+    width: 100%;
+}
+.mikasa_main {
+    font-size: 50px;
+    margin: 5% auto;
+    text-align: center;
+}
+.mi1_img {
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+.container {
+    width: 80%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-between;
+}
+.mi_gif {
+    height: 50%;
+}
+.mi_gif_cont {
+    width: 50%;
+}
+.mi_gif_txt {
+    font-size: 25px;
+    margin: 5% auto;
+}
+.mi_sword {
+    width: 500px;
+}
+.mi_2_img {
+    width: 100%;
+    opacity: 0.6;
+    transition: .3s linear;
+}
+.mi_2_img:hover {
+    opacity: 1;
+}
+.levi_img {
+    width: 100%;
+    opacity: 0.6;
+    transition: .3s linear;
+}
+.levi_img:hover {
+    opacity: 1;
+}
+.video {
+    width: 800px;
+
+    margin: 0 auto;
+    display: block;
+}
+.razved_gif {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+}
